@@ -1,7 +1,7 @@
 [
     {
         "name": "OrderCollection",
-        "policy": "OR('manufacturer-auto-com.member', 'dealer-auto-com.member')",
+        "policy": "OR('example-reg-com.member', 'example2-reg-com.member')",
         "requiredPeerCount": 1,
         "maxPeerCount": 1,
         "blockToLive": 100,
