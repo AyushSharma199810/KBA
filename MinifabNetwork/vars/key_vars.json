@@ -1,0 +1,86 @@
+{
+  "Admin@example.reg.com": {
+    "key": "Admin@example.reg.com",
+    "org": "example.reg.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/example.reg.com/users/Admin@example.reg.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/example.reg.com/users/Admin@example.reg.com/msp/keystore/priv_sk",
+    "type": "users"
+  },
+  "Admin@example2.reg.com": {
+    "key": "Admin@example2.reg.com",
+    "org": "example2.reg.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/example2.reg.com/users/Admin@example2.reg.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/example2.reg.com/users/Admin@example2.reg.com/msp/keystore/priv_sk",
+    "type": "users"
+  },
+  "Admin@reg.com": {
+    "key": "Admin@reg.com",
+    "org": "reg.com",
+    "path": "/home/vars/keyfiles/ordererOrganizations/reg.com/users/Admin@reg.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/ordererOrganizations/reg.com/users/Admin@reg.com/msp/keystore/priv_sk",
+    "type": "users"
+  },
+  "example.reg.com": {
+    "key": "example.reg.com",
+    "org": "example.reg.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/example.reg.com/ca/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/example.reg.com/ca/priv_sk",
+    "type": "ca"
+  },
+  "example.reg.com.tlsca": {
+    "key": "example.reg.com",
+    "org": "example.reg.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/example.reg.com/tlsca/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/example.reg.com/tlsca/priv_sk",
+    "type": "tlsca"
+  },
+  "example2.reg.com": {
+    "key": "example2.reg.com",
+    "org": "example2.reg.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/example2.reg.com/ca/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/example2.reg.com/ca/priv_sk",
+    "type": "ca"
+  },
+  "example2.reg.com.tlsca": {
+    "key": "example2.reg.com",
+    "org": "example2.reg.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/example2.reg.com/tlsca/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/example2.reg.com/tlsca/priv_sk",
+    "type": "tlsca"
+  },
+  "orderer1.reg.com": {
+    "key": "orderer1.reg.com",
+    "org": "reg.com",
+    "path": "/home/vars/keyfiles/ordererOrganizations/reg.com/orderers/orderer1.reg.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/ordererOrganizations/reg.com/orderers/orderer1.reg.com/msp/keystore/priv_sk",
+    "type": "orderers"
+  },
+  "peer1.example.reg.com": {
+    "key": "peer1.example.reg.com",
+    "org": "example.reg.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/example.reg.com/peers/peer1.example.reg.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/example.reg.com/peers/peer1.example.reg.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "peer1.example2.reg.com": {
+    "key": "peer1.example2.reg.com",
+    "org": "example2.reg.com",
+    "path": "/home/vars/keyfiles/peerOrganizations/example2.reg.com/peers/peer1.example2.reg.com/msp/keystore/priv_sk",
+    "pkey": "keyfiles/peerOrganizations/example2.reg.com/peers/peer1.example2.reg.com/msp/keystore/priv_sk",
+    "type": "peers"
+  },
+  "reg.com": {
+    "key": "reg.com",
+    "org": "reg.com",
+    "path": "/home/vars/keyfiles/ordererOrganizations/reg.com/ca/priv_sk",
+    "pkey": "keyfiles/ordererOrganizations/reg.com/ca/priv_sk",
+    "type": "ca"
+  },
+  "reg.com.tlsca": {
+    "key": "reg.com",
+    "org": "reg.com",
+    "path": "/home/vars/keyfiles/ordererOrganizations/reg.com/tlsca/priv_sk",
+    "pkey": "keyfiles/ordererOrganizations/reg.com/tlsca/priv_sk",
+    "type": "tlsca"
+  }
+}

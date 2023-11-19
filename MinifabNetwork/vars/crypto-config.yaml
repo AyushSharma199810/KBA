@@ -1,0 +1,38 @@
+---
+OrdererOrgs:
+  - Name: reg.com
+    Domain: reg.com
+    Specs:
+      - Hostname: orderer1
+        SANS:
+          - 172.31.89.52
+
+PeerOrgs:
+  - Name: example.reg.com
+    Domain: example.reg.com
+    EnableNodeOUs: true
+    CA:
+      Hostname: ca1
+      CommonName: ca1.example.reg.com
+      Country: US
+      Province: North Carolina
+      Locality: Raleigh
+    Specs:
+      - Hostname: peer1
+        CommonName: peer1.example.reg.com
+        SANS:
+          - 172.31.89.52
+  - Name: example2.reg.com
+    Domain: example2.reg.com
+    EnableNodeOUs: true
+    CA:
+      Hostname: ca1
+      CommonName: ca1.example2.reg.com
+      Country: US
+      Province: North Carolina
+      Locality: Raleigh
+    Specs:
+      - Hostname: peer1
+        CommonName: peer1.example2.reg.com
+        SANS:
+          - 172.31.89.52

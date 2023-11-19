@@ -1,0 +1,170 @@
+---
+Organizations:
+  - &example-reg-com
+      Name: example-reg-com
+      ID: example-reg-com
+      MSPDir: keyfiles/peerOrganizations/example.reg.com/msp
+      Policies:
+        Readers:
+          Type: Signature
+          Rule: "OR('example-reg-com.admin', 'example-reg-com.peer', 'example-reg-com.client')"
+        Writers:
+          Type: Signature
+          Rule: "OR('example-reg-com.admin', 'example-reg-com.client')"
+        Admins:
+          Type: Signature
+          Rule: "OR('example-reg-com.admin')"
+        Endorsement:
+          Type: Signature
+          Rule: "OR('example-reg-com.peer')"
+
+      AnchorPeers:
+      - Host: 172.31.89.52
+        Port: 7002
+  - &example2-reg-com
+      Name: example2-reg-com
+      ID: example2-reg-com
+      MSPDir: keyfiles/peerOrganizations/example2.reg.com/msp
+      Policies:
+        Readers:
+          Type: Signature
+          Rule: "OR('example2-reg-com.admin', 'example2-reg-com.peer', 'example2-reg-com.client')"
+        Writers:
+          Type: Signature
+          Rule: "OR('example2-reg-com.admin', 'example2-reg-com.client')"
+        Admins:
+          Type: Signature
+          Rule: "OR('example2-reg-com.admin')"
+        Endorsement:
+          Type: Signature
+          Rule: "OR('example2-reg-com.peer')"
+
+      AnchorPeers:
+      - Host: 172.31.89.52
+        Port: 7003
+  - &reg-com
+      Name: reg-com
+      ID: reg-com
+      MSPDir: keyfiles/ordererOrganizations/reg.com/msp
+      Policies:
+        Readers:
+          Type: Signature
+          Rule: "OR('reg-com.member')"
+        Writers:
+          Type: Signature
+          Rule: "OR('reg-com.member')"
+        Admins:
+          Type: Signature
+          Rule: "OR('reg-com.admin')"
+
+Capabilities:
+  Channel: &ChannelCapabilities
+    V2_0: true
+
+  Orderer: &OrdererCapabilities
+    V2_0: true
+
+  Application: &ApplicationCapabilities
+    V2_0: true
+
+Application: &ApplicationDefaults
+  Organizations:
+  Policies:
+    Readers:
+      Type: ImplicitMeta
+      Rule: "ANY Readers"
+    Writers:
+      Type: ImplicitMeta
+      Rule: "ANY Writers"
+    Admins:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Admins"
+    LifecycleEndorsement:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Endorsement"
+    Endorsement:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Endorsement"
+
+  Capabilities:
+    <<: *ApplicationCapabilities
+
+Orderer: &OrdererDefaults
+  OrdererType: etcdraft
+
+  BatchTimeout: 2s
+
+  BatchSize:
+    MaxMessageCount: 10
+    AbsoluteMaxBytes: 99 MB
+    PreferredMaxBytes: 512 KB
+
+  Addresses:
+  - 172.31.89.52:7006
+  EtcdRaft:
+    Consenters:
+    - Host: 172.31.89.52
+      Port: 7006
+      ClientTLSCert: keyfiles/ordererOrganizations/reg.com/orderers/orderer1.reg.com/tls/server.crt
+      ServerTLSCert: keyfiles/ordererOrganizations/reg.com/orderers/orderer1.reg.com/tls/server.crt
+  Organizations:
+  Policies:
+    Readers:
+      Type: ImplicitMeta
+      Rule: "ANY Readers"
+    Writers:
+      Type: ImplicitMeta
+      Rule: "ANY Writers"
+    Admins:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Admins"
+    BlockValidation:
+      Type: ImplicitMeta
+      Rule: "ANY Writers"
+
+Channel: &ChannelDefaults
+  Policies:
+    Readers:
+      Type: ImplicitMeta
+      Rule: "ANY Readers"
+    Writers:
+      Type: ImplicitMeta
+      Rule: "ANY Writers"
+    Admins:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Admins"
+
+  Capabilities:
+    <<: *ChannelCapabilities
+
+Profiles:
+  OrgChannel:
+    Consortium: SampleConsortium
+    <<: *ChannelDefaults
+    Application:
+      <<: *ApplicationDefaults
+      Organizations:
+      - *example-reg-com
+      - *example2-reg-com
+      Capabilities:
+        <<: *ApplicationCapabilities
+
+  OrdererGenesis:
+    <<: *ChannelDefaults
+    Capabilities:
+      <<: *ChannelCapabilities
+    Orderer:
+      <<: *OrdererDefaults
+      Organizations:
+      - *reg-com
+      Capabilities:
+        <<: *OrdererCapabilities
+    Application:
+      <<: *ApplicationDefaults
+      Organizations:
+      - <<: *reg-com
+    Consortiums:
+      SampleConsortium:
+        Organizations:
+        - *example-reg-com
+        - *example2-reg-com

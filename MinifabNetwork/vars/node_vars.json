@@ -1,0 +1,126 @@
+{
+  "allcas": [
+    {
+      "adminPassword": "adminpw",
+      "command": "fabric-ca-server start -b admin:adminpw --cfg.affiliations.allowremove --cfg.identities.allowremove",
+      "fullname": "ca1.example.reg.com",
+      "mspid": "example-reg-com",
+      "name": "ca1",
+      "oport": "8000",
+      "org": "example.reg.com",
+      "port": "7000",
+      "portmap": "-p 7000:7054 -p 8000:9443",
+      "type": "ca",
+      "url": "172.31.89.52"
+    },
+    {
+      "adminPassword": "adminpw",
+      "command": "fabric-ca-server start -b admin:adminpw --cfg.affiliations.allowremove --cfg.identities.allowremove",
+      "fullname": "ca1.example2.reg.com",
+      "mspid": "example2-reg-com",
+      "name": "ca1",
+      "oport": "8001",
+      "org": "example2.reg.com",
+      "port": "7001",
+      "portmap": "-p 7001:7054 -p 8001:9443",
+      "type": "ca",
+      "url": "172.31.89.52"
+    }
+  ],
+  "allcouchdbs": [
+    {
+      "adminPassword": "adminpw",
+      "fullname": "peer1.example.reg.com.couchdb",
+      "mspid": "example-reg-com",
+      "name": "peer1.couchdb",
+      "org": "example.reg.com",
+      "port": "7004",
+      "portmap": "-p 7004:5984",
+      "type": "couchdb",
+      "url": "172.31.89.52"
+    },
+    {
+      "adminPassword": "adminpw",
+      "fullname": "peer1.example2.reg.com.couchdb",
+      "mspid": "example2-reg-com",
+      "name": "peer1.couchdb",
+      "org": "example2.reg.com",
+      "port": "7005",
+      "portmap": "-p 7005:5984",
+      "type": "couchdb",
+      "url": "172.31.89.52"
+    }
+  ],
+  "allorderers": [
+    {
+      "fullname": "orderer1.reg.com",
+      "mspid": "reg-com",
+      "name": "orderer1",
+      "oport": "8006",
+      "org": "reg.com",
+      "port": "7006",
+      "portmap": "-p 7006:7050 -p 8006:7060",
+      "type": "orderer",
+      "url": "172.31.89.52"
+    }
+  ],
+  "allorgs": [
+    "example.reg.com",
+    "example2.reg.com",
+    "reg.com"
+  ],
+  "allpeers": [
+    {
+      "adminPassword": "adminpw",
+      "fullname": "peer1.example.reg.com",
+      "mspid": "example-reg-com",
+      "name": "peer1",
+      "oport": "8002",
+      "org": "example.reg.com",
+      "port": "7002",
+      "portmap": "-p 7002:7051 -p 8002:7061",
+      "type": "peer",
+      "url": "172.31.89.52"
+    },
+    {
+      "adminPassword": "adminpw",
+      "fullname": "peer1.example2.reg.com",
+      "mspid": "example2-reg-com",
+      "name": "peer1",
+      "oport": "8003",
+      "org": "example2.reg.com",
+      "port": "7003",
+      "portmap": "-p 7003:7051 -p 8003:7061",
+      "type": "peer",
+      "url": "172.31.89.52"
+    }
+  ],
+  "caorgs": [
+    "example.reg.com",
+    "example2.reg.com"
+  ],
+  "console_port": "7010",
+  "explorer_port": "7008",
+  "ordererorgs": [
+    "reg.com"
+  ],
+  "orgattrs": {
+    "example.reg.com": {
+      "certpath": "peerOrganizations",
+      "mspid": "example-reg-com"
+    },
+    "example2.reg.com": {
+      "certpath": "peerOrganizations",
+      "mspid": "example2-reg-com"
+    },
+    "reg.com": {
+      "certpath": "ordererOrganizations",
+      "mspid": "reg-com"
+    }
+  },
+  "peerorgs": [
+    "example.reg.com",
+    "example2.reg.com"
+  ],
+  "portainer_port": "7009"
+}
