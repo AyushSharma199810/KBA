@@ -20,8 +20,8 @@ fi
 peer lifecycle chaincode commit -o $ORDERER_ADDRESS --channelID autochannel \
   --name KBA-Automobile --version 1.0 --sequence $SEQUENCE \
   --peerAddresses 172.31.89.52:7002 \
-  --tlsRootCertFiles /vars/keyfiles/peerOrganizations/example.reg.com/peers/peer1.example.reg.com/tls/ca.crt \
+  --tlsRootCertFiles /vars/discover/autochannel/example-reg-com/tlscert \
   --peerAddresses 172.31.89.52:7003 \
-  --tlsRootCertFiles /vars/keyfiles/peerOrganizations/example2.reg.com/peers/peer1.example2.reg.com/tls/ca.crt \
+  --tlsRootCertFiles /vars/discover/autochannel/example2-reg-com/tlscert \
   --collections-config /vars/KBA-Automobile_collection_config.json \
   --cafile $ORDERER_TLS_CA --tls

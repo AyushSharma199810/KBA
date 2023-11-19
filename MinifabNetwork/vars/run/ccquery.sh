@@ -12,4 +12,4 @@ peer chaincode query -o $ORDERER_ADDRESS --cafile $ORDERER_TLS_CA \
   --tls -C autochannel -n KBA-Automobile  \
   --peerAddresses 172.31.89.52:7002 \
   --tlsRootCertFiles /vars/keyfiles/peerOrganizations/example.reg.com/peers/peer1.example.reg.com/tls/ca.crt \
-  -c '{"Args":["GetAllLands"]}'
+  -c '{"Args":["ReadLand","land01"]}'

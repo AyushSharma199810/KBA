@@ -1,10 +1,9 @@
 
-F  ˘q∞2·∂êÇ&î„Z6¨‹îi«&©‰b◊Ÿ%M
- ÈÓ™ï≤Ô∂5?3aë8UÖÔV‘¿U—CÛÚÚ‚ïúÄÔÿ
-Îÿ
-üÿ
+F ∏};æËZÊmlõÉ^¬]Nºd&J.‚ÚzÈªhﬁ¸ EÁ7	Œ>¥¢c'äÜdó‰Bã¨ˇ´^›»•`›mÓÿ
+Íÿ
+ûÿ
 §
-“◊‰™"autochannelà
+…ÂÈ™"autochannelà
 Î
 reg-comﬂ-----BEGIN CERTIFICATE-----
 MIICTzCCAfWgAwIBAgIUNXhaqNOPX4wAArW755tr158h/SAwCgYIKoZIzj0EAwIw
@@ -21,9 +20,150 @@ VR0jBBgwFoAUzLxUOpx043wCMmfBKKHPYftF2UowCgYIKoZIzj0EAwIDSAAwRQIh
 AN+W5rWPVbubloS0ioo8HAp+4e/eVUCYINmSiNZHRW9lAiB8MSyXtDrWLHfjE6Y3
 fOtxtxqxgVhvvYjbXSiibUKJgA==
 -----END CERTIFICATE-----
-S¡¨±ÈI2*ΩRú¥sé%^"”aÒEøÙ–
+Aœ'¨ñUIt∆)à!ºé–†…O1ÒÚøuÛ–
 ìæçæ”v
-Application√v˚9
+Application√v¡:
+example2-reg-com¨:,
+AnchorPeers
+
+172.31.89.52€6Admins¶7
+MSPû7ì7ê7
+example2-reg-comÌ-----BEGIN CERTIFICATE-----
+MIICuDCCAl6gAwIBAgIUVSIdoSOQr+WTfOI/5xfpixs9EcUwCgYIKoZIzj0EAwIw
+cjELMAkGA1UEBhMCVVMxFzAVBgNVBAgMDk5vcnRoIENhcm9saW5hMRAwDgYDVQQH
+DAdSYWxlaWdoMRkwFwYDVQQKDBBleGFtcGxlMi5yZWcuY29tMR0wGwYDVQQDDBRj
+YTEuZXhhbXBsZTIucmVnLmNvbTAeFw0yMzExMTgyMTIzMThaFw0zMzExMTUyMTIz
+MThaMHIxCzAJBgNVBAYTAlVTMRcwFQYDVQQIDA5Ob3J0aCBDYXJvbGluYTEQMA4G
+A1UEBwwHUmFsZWlnaDEZMBcGA1UECgwQZXhhbXBsZTIucmVnLmNvbTEdMBsGA1UE
+AwwUY2ExLmV4YW1wbGUyLnJlZy5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNC
+AAQ9cJytEzb8dwSh7vyluEqf0E728++CTm+dFDAWcNqrLgTP1NpFkXc9OWU0uj+g
+RAWGTR0TN8r9QYptcvqP/ZMXo4HRMIHOMB0GA1UdDgQWBBRyBsqudtPVsvUfOsd/
+Cky9pKGPgzAfBgNVHSMEGDAWgBRyBsqudtPVsvUfOsd/Cky9pKGPgzAPBgNVHRMB
+Af8EBTADAQH/MA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEFBQcDAQYI
+KwYBBQUHAwIwTAYDVR0RBEUwQ4cErB9ZNIIUY2ExLmV4YW1wbGUyLnJlZy5jb22C
+FGNhMS1leGFtcGxlMi1yZWctY29tgglsb2NhbGhvc3SHBH8AAAEwCgYIKoZIzj0E
+AwIDSAAwRQIhAL7XOd3wn7uZgoXDCfjPaizw1GefEynN6shUJXnMX5t4AiBePLYV
+qp6l8R+zPmpe3hG1snQxjEQuRwRdDB1pvX714w==
+-----END CERTIFICATE-----
+"å-----BEGIN CERTIFICATE-----
+MIICcjCCAhigAwIBAgIUEGpa4dBx+/sQy23HQBlksYSm+eIwCgYIKoZIzj0EAwIw
+cjELMAkGA1UEBhMCVVMxFzAVBgNVBAgMDk5vcnRoIENhcm9saW5hMRAwDgYDVQQH
+DAdSYWxlaWdoMRkwFwYDVQQKDBBleGFtcGxlMi5yZWcuY29tMR0wGwYDVQQDDBRj
+YTEuZXhhbXBsZTIucmVnLmNvbTAeFw0yMzExMTgyMTIzMjNaFw0zMzA4MTcyMTIz
+MjNaMGkxCzAJBgNVBAYTAlVTMRcwFQYDVQQIDA5Ob3J0aCBDYXJvbGluYTEQMA4G
+A1UEBwwHUmFsZWlnaDEOMAwGA1UECwwFYWRtaW4xHzAdBgNVBAMMFkFkbWluQGV4
+YW1wbGUyLnJlZy5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAATFlZP3+uBJ
+VhC4wt28hLVT4G+2HC8yHUEKkgSK+uWwQ8noGD1ur1S/l25CWqyRd0Ha8dqHk4QP
+ZAacCx+8wuC8o4GUMIGRMA4GA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMFAG
+A1UdEQRJMEeHBKwfWTSCFkFkbWluQGV4YW1wbGUyLnJlZy5jb22CFkFkbWluQGV4
+YW1wbGUyLXJlZy1jb22CCWxvY2FsaG9zdIcEfwAAATAfBgNVHSMEGDAWgBRyBsqu
+dtPVsvUfOsd/Cky9pKGPgzAKBggqhkjOPQQDAgNIADBFAiAXcQ97B+ntC1ZQHYzT
+jQ/CiHf+yWk3/0Uo7d//2dhpEwIhAN9OlO4VVnXQkhQcYazHURFfHhmSPaMNrE4P
+kpkFGcjY
+-----END CERTIFICATE-----
+B
+SHA2SHA256J˝-----BEGIN CERTIFICATE-----
+MIICxDCCAmqgAwIBAgIUeqm7YB/LSiCq8JhZRrd29S3yoHowCgYIKoZIzj0EAwIw
+dTELMAkGA1UEBhMCVVMxFzAVBgNVBAgMDk5vcnRoIENhcm9saW5hMRAwDgYDVQQH
+DAdSYWxlaWdoMRkwFwYDVQQKDBBleGFtcGxlMi5yZWcuY29tMSAwHgYDVQQDDBd0
+bHNjYTEuZXhhbXBsZTIucmVnLmNvbTAeFw0yMzExMTgyMTIzMThaFw0zMzExMTUy
+MTIzMThaMHUxCzAJBgNVBAYTAlVTMRcwFQYDVQQIDA5Ob3J0aCBDYXJvbGluYTEQ
+MA4GA1UEBwwHUmFsZWlnaDEZMBcGA1UECgwQZXhhbXBsZTIucmVnLmNvbTEgMB4G
+A1UEAwwXdGxzY2ExLmV4YW1wbGUyLnJlZy5jb20wWTATBgcqhkjOPQIBBggqhkjO
+PQMBBwNCAATLey9qLGLj32EDL9HTfdZMn3LZQzEIb6oSG3qeCmAkCuR1pNLBW6WF
+BREebhJCevpKHuqAD7GWeT1phj4YlLsWo4HXMIHUMB0GA1UdDgQWBBRT7EF/xXt2
+6rihKe8sdCLSRcZpiDAfBgNVHSMEGDAWgBRT7EF/xXt26rihKe8sdCLSRcZpiDAP
+BgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEF
+BQcDAQYIKwYBBQUHAwIwUgYDVR0RBEswSYcErB9ZNIIXdGxzY2ExLmV4YW1wbGUy
+LnJlZy5jb22CF3Rsc2NhMS1leGFtcGxlMi1yZWctY29tgglsb2NhbGhvc3SHBH8A
+AAEwCgYIKoZIzj0EAwIDSAAwRQIgW2kFpdAW2pRT9N370plO6itxiLXSmx5VbiRy
+v7nNni4CIQDbkctQHxc1TXEZKzescIhrj4oKAqHSJpWNffdIsHi+yg==
+-----END CERTIFICATE-----
+ZÏ¯
+Ì-----BEGIN CERTIFICATE-----
+MIICuDCCAl6gAwIBAgIUVSIdoSOQr+WTfOI/5xfpixs9EcUwCgYIKoZIzj0EAwIw
+cjELMAkGA1UEBhMCVVMxFzAVBgNVBAgMDk5vcnRoIENhcm9saW5hMRAwDgYDVQQH
+DAdSYWxlaWdoMRkwFwYDVQQKDBBleGFtcGxlMi5yZWcuY29tMR0wGwYDVQQDDBRj
+YTEuZXhhbXBsZTIucmVnLmNvbTAeFw0yMzExMTgyMTIzMThaFw0zMzExMTUyMTIz
+MThaMHIxCzAJBgNVBAYTAlVTMRcwFQYDVQQIDA5Ob3J0aCBDYXJvbGluYTEQMA4G
+A1UEBwwHUmFsZWlnaDEZMBcGA1UECgwQZXhhbXBsZTIucmVnLmNvbTEdMBsGA1UE
+AwwUY2ExLmV4YW1wbGUyLnJlZy5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNC
+AAQ9cJytEzb8dwSh7vyluEqf0E728++CTm+dFDAWcNqrLgTP1NpFkXc9OWU0uj+g
+RAWGTR0TN8r9QYptcvqP/ZMXo4HRMIHOMB0GA1UdDgQWBBRyBsqudtPVsvUfOsd/
+Cky9pKGPgzAfBgNVHSMEGDAWgBRyBsqudtPVsvUfOsd/Cky9pKGPgzAPBgNVHRMB
+Af8EBTADAQH/MA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEFBQcDAQYI
+KwYBBQUHAwIwTAYDVR0RBEUwQ4cErB9ZNIIUY2ExLmV4YW1wbGUyLnJlZy5jb22C
+FGNhMS1leGFtcGxlMi1yZWctY29tgglsb2NhbGhvc3SHBH8AAAEwCgYIKoZIzj0E
+AwIDSAAwRQIhAL7XOd3wn7uZgoXDCfjPaizw1GefEynN6shUJXnMX5t4AiBePLYV
+qp6l8R+zPmpe3hG1snQxjEQuRwRdDB1pvX714w==
+-----END CERTIFICATE-----
+clientˆ
+Ì-----BEGIN CERTIFICATE-----
+MIICuDCCAl6gAwIBAgIUVSIdoSOQr+WTfOI/5xfpixs9EcUwCgYIKoZIzj0EAwIw
+cjELMAkGA1UEBhMCVVMxFzAVBgNVBAgMDk5vcnRoIENhcm9saW5hMRAwDgYDVQQH
+DAdSYWxlaWdoMRkwFwYDVQQKDBBleGFtcGxlMi5yZWcuY29tMR0wGwYDVQQDDBRj
+YTEuZXhhbXBsZTIucmVnLmNvbTAeFw0yMzExMTgyMTIzMThaFw0zMzExMTUyMTIz
+MThaMHIxCzAJBgNVBAYTAlVTMRcwFQYDVQQIDA5Ob3J0aCBDYXJvbGluYTEQMA4G
+A1UEBwwHUmFsZWlnaDEZMBcGA1UECgwQZXhhbXBsZTIucmVnLmNvbTEdMBsGA1UE
+AwwUY2ExLmV4YW1wbGUyLnJlZy5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNC
+AAQ9cJytEzb8dwSh7vyluEqf0E728++CTm+dFDAWcNqrLgTP1NpFkXc9OWU0uj+g
+RAWGTR0TN8r9QYptcvqP/ZMXo4HRMIHOMB0GA1UdDgQWBBRyBsqudtPVsvUfOsd/
+Cky9pKGPgzAfBgNVHSMEGDAWgBRyBsqudtPVsvUfOsd/Cky9pKGPgzAPBgNVHRMB
+Af8EBTADAQH/MA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEFBQcDAQYI
+KwYBBQUHAwIwTAYDVR0RBEUwQ4cErB9ZNIIUY2ExLmV4YW1wbGUyLnJlZy5jb22C
+FGNhMS1leGFtcGxlMi1yZWctY29tgglsb2NhbGhvc3SHBH8AAAEwCgYIKoZIzj0E
+AwIDSAAwRQIhAL7XOd3wn7uZgoXDCfjPaizw1GefEynN6shUJXnMX5t4AiBePLYV
+qp6l8R+zPmpe3hG1snQxjEQuRwRdDB1pvX714w==
+-----END CERTIFICATE-----
+peer"˜
+Ì-----BEGIN CERTIFICATE-----
+MIICuDCCAl6gAwIBAgIUVSIdoSOQr+WTfOI/5xfpixs9EcUwCgYIKoZIzj0EAwIw
+cjELMAkGA1UEBhMCVVMxFzAVBgNVBAgMDk5vcnRoIENhcm9saW5hMRAwDgYDVQQH
+DAdSYWxlaWdoMRkwFwYDVQQKDBBleGFtcGxlMi5yZWcuY29tMR0wGwYDVQQDDBRj
+YTEuZXhhbXBsZTIucmVnLmNvbTAeFw0yMzExMTgyMTIzMThaFw0zMzExMTUyMTIz
+MThaMHIxCzAJBgNVBAYTAlVTMRcwFQYDVQQIDA5Ob3J0aCBDYXJvbGluYTEQMA4G
+A1UEBwwHUmFsZWlnaDEZMBcGA1UECgwQZXhhbXBsZTIucmVnLmNvbTEdMBsGA1UE
+AwwUY2ExLmV4YW1wbGUyLnJlZy5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNC
+AAQ9cJytEzb8dwSh7vyluEqf0E728++CTm+dFDAWcNqrLgTP1NpFkXc9OWU0uj+g
+RAWGTR0TN8r9QYptcvqP/ZMXo4HRMIHOMB0GA1UdDgQWBBRyBsqudtPVsvUfOsd/
+Cky9pKGPgzAfBgNVHSMEGDAWgBRyBsqudtPVsvUfOsd/Cky9pKGPgzAPBgNVHRMB
+Af8EBTADAQH/MA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEFBQcDAQYI
+KwYBBQUHAwIwTAYDVR0RBEUwQ4cErB9ZNIIUY2ExLmV4YW1wbGUyLnJlZy5jb22C
+FGNhMS1leGFtcGxlMi1yZWctY29tgglsb2NhbGhvc3SHBH8AAAEwCgYIKoZIzj0E
+AwIDSAAwRQIhAL7XOd3wn7uZgoXDCfjPaizw1GefEynN6shUJXnMX5t4AiBePLYV
+qp6l8R+zPmpe3hG1snQxjEQuRwRdDB1pvX714w==
+-----END CERTIFICATE-----
+admin*˘
+Ì-----BEGIN CERTIFICATE-----
+MIICuDCCAl6gAwIBAgIUVSIdoSOQr+WTfOI/5xfpixs9EcUwCgYIKoZIzj0EAwIw
+cjELMAkGA1UEBhMCVVMxFzAVBgNVBAgMDk5vcnRoIENhcm9saW5hMRAwDgYDVQQH
+DAdSYWxlaWdoMRkwFwYDVQQKDBBleGFtcGxlMi5yZWcuY29tMR0wGwYDVQQDDBRj
+YTEuZXhhbXBsZTIucmVnLmNvbTAeFw0yMzExMTgyMTIzMThaFw0zMzExMTUyMTIz
+MThaMHIxCzAJBgNVBAYTAlVTMRcwFQYDVQQIDA5Ob3J0aCBDYXJvbGluYTEQMA4G
+A1UEBwwHUmFsZWlnaDEZMBcGA1UECgwQZXhhbXBsZTIucmVnLmNvbTEdMBsGA1UE
+AwwUY2ExLmV4YW1wbGUyLnJlZy5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNC
+AAQ9cJytEzb8dwSh7vyluEqf0E728++CTm+dFDAWcNqrLgTP1NpFkXc9OWU0uj+g
+RAWGTR0TN8r9QYptcvqP/ZMXo4HRMIHOMB0GA1UdDgQWBBRyBsqudtPVsvUfOsd/
+Cky9pKGPgzAfBgNVHSMEGDAWgBRyBsqudtPVsvUfOsd/Cky9pKGPgzAPBgNVHRMB
+Af8EBTADAQH/MA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEFBQcDAQYI
+KwYBBQUHAwIwTAYDVR0RBEUwQ4cErB9ZNIIUY2ExLmV4YW1wbGUyLnJlZy5jb22C
+FGNhMS1leGFtcGxlMi1yZWctY29tgglsb2NhbGhvc3SHBH8AAAEwCgYIKoZIzj0E
+AwIDSAAwRQIhAL7XOd3wn7uZgoXDCfjPaizw1GefEynN6shUJXnMX5t4AiBePLYV
+qp6l8R+zPmpe3hG1snQxjEQuRwRdDB1pvX714w==
+-----END CERTIFICATE-----
+ordererAdmins"W
+WritersLB>
+ 
+example2-reg-com
+example2-reg-comAdmins":
+Admins0&" 
+example2-reg-comAdmins"?
+Endorsement0&" 
+example2-reg-comAdmins"s
+Readersh^Z 
+example2-reg-com
+example2-reg-com
+example2-reg-comAdmins*Admins˚9
 example-reg-comÁ9,
 AnchorPeers
 
@@ -151,166 +291,23 @@ ZXhhbXBsZS1yZWctY29tgglsb2NhbGhvc3SHBH8AAAEwCgYIKoZIzj0EAwIDSAAw
 RQIgYcG1pQrPfndHWJAj4QFEqFgvaAx/7oE15zmm9/XiQHoCIQCcjWPaGMT5u33c
 ucZHCHqAmfw0SXJSgjcQSV954KDXsQ==
 -----END CERTIFICATE-----
-ordererAdmins">
-Endorsement/%! 
-example-reg-comAdmins"p
-Readerse[W 
-example-reg-com
-example-reg-com
-example-reg-comAdmins"U
+ordererAdmins"U
 WritersJ@<
  
 example-reg-com
 example-reg-comAdmins"9
 Admins/%! 
-example-reg-comAdmins*Admins¡:
-example2-reg-com¨:¶7
-MSPû7ì7ê7
-example2-reg-comÌ-----BEGIN CERTIFICATE-----
-MIICuDCCAl6gAwIBAgIUVSIdoSOQr+WTfOI/5xfpixs9EcUwCgYIKoZIzj0EAwIw
-cjELMAkGA1UEBhMCVVMxFzAVBgNVBAgMDk5vcnRoIENhcm9saW5hMRAwDgYDVQQH
-DAdSYWxlaWdoMRkwFwYDVQQKDBBleGFtcGxlMi5yZWcuY29tMR0wGwYDVQQDDBRj
-YTEuZXhhbXBsZTIucmVnLmNvbTAeFw0yMzExMTgyMTIzMThaFw0zMzExMTUyMTIz
-MThaMHIxCzAJBgNVBAYTAlVTMRcwFQYDVQQIDA5Ob3J0aCBDYXJvbGluYTEQMA4G
-A1UEBwwHUmFsZWlnaDEZMBcGA1UECgwQZXhhbXBsZTIucmVnLmNvbTEdMBsGA1UE
-AwwUY2ExLmV4YW1wbGUyLnJlZy5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNC
-AAQ9cJytEzb8dwSh7vyluEqf0E728++CTm+dFDAWcNqrLgTP1NpFkXc9OWU0uj+g
-RAWGTR0TN8r9QYptcvqP/ZMXo4HRMIHOMB0GA1UdDgQWBBRyBsqudtPVsvUfOsd/
-Cky9pKGPgzAfBgNVHSMEGDAWgBRyBsqudtPVsvUfOsd/Cky9pKGPgzAPBgNVHRMB
-Af8EBTADAQH/MA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEFBQcDAQYI
-KwYBBQUHAwIwTAYDVR0RBEUwQ4cErB9ZNIIUY2ExLmV4YW1wbGUyLnJlZy5jb22C
-FGNhMS1leGFtcGxlMi1yZWctY29tgglsb2NhbGhvc3SHBH8AAAEwCgYIKoZIzj0E
-AwIDSAAwRQIhAL7XOd3wn7uZgoXDCfjPaizw1GefEynN6shUJXnMX5t4AiBePLYV
-qp6l8R+zPmpe3hG1snQxjEQuRwRdDB1pvX714w==
------END CERTIFICATE-----
-"å-----BEGIN CERTIFICATE-----
-MIICcjCCAhigAwIBAgIUEGpa4dBx+/sQy23HQBlksYSm+eIwCgYIKoZIzj0EAwIw
-cjELMAkGA1UEBhMCVVMxFzAVBgNVBAgMDk5vcnRoIENhcm9saW5hMRAwDgYDVQQH
-DAdSYWxlaWdoMRkwFwYDVQQKDBBleGFtcGxlMi5yZWcuY29tMR0wGwYDVQQDDBRj
-YTEuZXhhbXBsZTIucmVnLmNvbTAeFw0yMzExMTgyMTIzMjNaFw0zMzA4MTcyMTIz
-MjNaMGkxCzAJBgNVBAYTAlVTMRcwFQYDVQQIDA5Ob3J0aCBDYXJvbGluYTEQMA4G
-A1UEBwwHUmFsZWlnaDEOMAwGA1UECwwFYWRtaW4xHzAdBgNVBAMMFkFkbWluQGV4
-YW1wbGUyLnJlZy5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAATFlZP3+uBJ
-VhC4wt28hLVT4G+2HC8yHUEKkgSK+uWwQ8noGD1ur1S/l25CWqyRd0Ha8dqHk4QP
-ZAacCx+8wuC8o4GUMIGRMA4GA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMFAG
-A1UdEQRJMEeHBKwfWTSCFkFkbWluQGV4YW1wbGUyLnJlZy5jb22CFkFkbWluQGV4
-YW1wbGUyLXJlZy1jb22CCWxvY2FsaG9zdIcEfwAAATAfBgNVHSMEGDAWgBRyBsqu
-dtPVsvUfOsd/Cky9pKGPgzAKBggqhkjOPQQDAgNIADBFAiAXcQ97B+ntC1ZQHYzT
-jQ/CiHf+yWk3/0Uo7d//2dhpEwIhAN9OlO4VVnXQkhQcYazHURFfHhmSPaMNrE4P
-kpkFGcjY
------END CERTIFICATE-----
-B
-SHA2SHA256J˝-----BEGIN CERTIFICATE-----
-MIICxDCCAmqgAwIBAgIUeqm7YB/LSiCq8JhZRrd29S3yoHowCgYIKoZIzj0EAwIw
-dTELMAkGA1UEBhMCVVMxFzAVBgNVBAgMDk5vcnRoIENhcm9saW5hMRAwDgYDVQQH
-DAdSYWxlaWdoMRkwFwYDVQQKDBBleGFtcGxlMi5yZWcuY29tMSAwHgYDVQQDDBd0
-bHNjYTEuZXhhbXBsZTIucmVnLmNvbTAeFw0yMzExMTgyMTIzMThaFw0zMzExMTUy
-MTIzMThaMHUxCzAJBgNVBAYTAlVTMRcwFQYDVQQIDA5Ob3J0aCBDYXJvbGluYTEQ
-MA4GA1UEBwwHUmFsZWlnaDEZMBcGA1UECgwQZXhhbXBsZTIucmVnLmNvbTEgMB4G
-A1UEAwwXdGxzY2ExLmV4YW1wbGUyLnJlZy5jb20wWTATBgcqhkjOPQIBBggqhkjO
-PQMBBwNCAATLey9qLGLj32EDL9HTfdZMn3LZQzEIb6oSG3qeCmAkCuR1pNLBW6WF
-BREebhJCevpKHuqAD7GWeT1phj4YlLsWo4HXMIHUMB0GA1UdDgQWBBRT7EF/xXt2
-6rihKe8sdCLSRcZpiDAfBgNVHSMEGDAWgBRT7EF/xXt26rihKe8sdCLSRcZpiDAP
-BgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEF
-BQcDAQYIKwYBBQUHAwIwUgYDVR0RBEswSYcErB9ZNIIXdGxzY2ExLmV4YW1wbGUy
-LnJlZy5jb22CF3Rsc2NhMS1leGFtcGxlMi1yZWctY29tgglsb2NhbGhvc3SHBH8A
-AAEwCgYIKoZIzj0EAwIDSAAwRQIgW2kFpdAW2pRT9N370plO6itxiLXSmx5VbiRy
-v7nNni4CIQDbkctQHxc1TXEZKzescIhrj4oKAqHSJpWNffdIsHi+yg==
------END CERTIFICATE-----
-ZÏ¯
-Ì-----BEGIN CERTIFICATE-----
-MIICuDCCAl6gAwIBAgIUVSIdoSOQr+WTfOI/5xfpixs9EcUwCgYIKoZIzj0EAwIw
-cjELMAkGA1UEBhMCVVMxFzAVBgNVBAgMDk5vcnRoIENhcm9saW5hMRAwDgYDVQQH
-DAdSYWxlaWdoMRkwFwYDVQQKDBBleGFtcGxlMi5yZWcuY29tMR0wGwYDVQQDDBRj
-YTEuZXhhbXBsZTIucmVnLmNvbTAeFw0yMzExMTgyMTIzMThaFw0zMzExMTUyMTIz
-MThaMHIxCzAJBgNVBAYTAlVTMRcwFQYDVQQIDA5Ob3J0aCBDYXJvbGluYTEQMA4G
-A1UEBwwHUmFsZWlnaDEZMBcGA1UECgwQZXhhbXBsZTIucmVnLmNvbTEdMBsGA1UE
-AwwUY2ExLmV4YW1wbGUyLnJlZy5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNC
-AAQ9cJytEzb8dwSh7vyluEqf0E728++CTm+dFDAWcNqrLgTP1NpFkXc9OWU0uj+g
-RAWGTR0TN8r9QYptcvqP/ZMXo4HRMIHOMB0GA1UdDgQWBBRyBsqudtPVsvUfOsd/
-Cky9pKGPgzAfBgNVHSMEGDAWgBRyBsqudtPVsvUfOsd/Cky9pKGPgzAPBgNVHRMB
-Af8EBTADAQH/MA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEFBQcDAQYI
-KwYBBQUHAwIwTAYDVR0RBEUwQ4cErB9ZNIIUY2ExLmV4YW1wbGUyLnJlZy5jb22C
-FGNhMS1leGFtcGxlMi1yZWctY29tgglsb2NhbGhvc3SHBH8AAAEwCgYIKoZIzj0E
-AwIDSAAwRQIhAL7XOd3wn7uZgoXDCfjPaizw1GefEynN6shUJXnMX5t4AiBePLYV
-qp6l8R+zPmpe3hG1snQxjEQuRwRdDB1pvX714w==
------END CERTIFICATE-----
-clientˆ
-Ì-----BEGIN CERTIFICATE-----
-MIICuDCCAl6gAwIBAgIUVSIdoSOQr+WTfOI/5xfpixs9EcUwCgYIKoZIzj0EAwIw
-cjELMAkGA1UEBhMCVVMxFzAVBgNVBAgMDk5vcnRoIENhcm9saW5hMRAwDgYDVQQH
-DAdSYWxlaWdoMRkwFwYDVQQKDBBleGFtcGxlMi5yZWcuY29tMR0wGwYDVQQDDBRj
-YTEuZXhhbXBsZTIucmVnLmNvbTAeFw0yMzExMTgyMTIzMThaFw0zMzExMTUyMTIz
-MThaMHIxCzAJBgNVBAYTAlVTMRcwFQYDVQQIDA5Ob3J0aCBDYXJvbGluYTEQMA4G
-A1UEBwwHUmFsZWlnaDEZMBcGA1UECgwQZXhhbXBsZTIucmVnLmNvbTEdMBsGA1UE
-AwwUY2ExLmV4YW1wbGUyLnJlZy5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNC
-AAQ9cJytEzb8dwSh7vyluEqf0E728++CTm+dFDAWcNqrLgTP1NpFkXc9OWU0uj+g
-RAWGTR0TN8r9QYptcvqP/ZMXo4HRMIHOMB0GA1UdDgQWBBRyBsqudtPVsvUfOsd/
-Cky9pKGPgzAfBgNVHSMEGDAWgBRyBsqudtPVsvUfOsd/Cky9pKGPgzAPBgNVHRMB
-Af8EBTADAQH/MA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEFBQcDAQYI
-KwYBBQUHAwIwTAYDVR0RBEUwQ4cErB9ZNIIUY2ExLmV4YW1wbGUyLnJlZy5jb22C
-FGNhMS1leGFtcGxlMi1yZWctY29tgglsb2NhbGhvc3SHBH8AAAEwCgYIKoZIzj0E
-AwIDSAAwRQIhAL7XOd3wn7uZgoXDCfjPaizw1GefEynN6shUJXnMX5t4AiBePLYV
-qp6l8R+zPmpe3hG1snQxjEQuRwRdDB1pvX714w==
------END CERTIFICATE-----
-peer"˜
-Ì-----BEGIN CERTIFICATE-----
-MIICuDCCAl6gAwIBAgIUVSIdoSOQr+WTfOI/5xfpixs9EcUwCgYIKoZIzj0EAwIw
-cjELMAkGA1UEBhMCVVMxFzAVBgNVBAgMDk5vcnRoIENhcm9saW5hMRAwDgYDVQQH
-DAdSYWxlaWdoMRkwFwYDVQQKDBBleGFtcGxlMi5yZWcuY29tMR0wGwYDVQQDDBRj
-YTEuZXhhbXBsZTIucmVnLmNvbTAeFw0yMzExMTgyMTIzMThaFw0zMzExMTUyMTIz
-MThaMHIxCzAJBgNVBAYTAlVTMRcwFQYDVQQIDA5Ob3J0aCBDYXJvbGluYTEQMA4G
-A1UEBwwHUmFsZWlnaDEZMBcGA1UECgwQZXhhbXBsZTIucmVnLmNvbTEdMBsGA1UE
-AwwUY2ExLmV4YW1wbGUyLnJlZy5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNC
-AAQ9cJytEzb8dwSh7vyluEqf0E728++CTm+dFDAWcNqrLgTP1NpFkXc9OWU0uj+g
-RAWGTR0TN8r9QYptcvqP/ZMXo4HRMIHOMB0GA1UdDgQWBBRyBsqudtPVsvUfOsd/
-Cky9pKGPgzAfBgNVHSMEGDAWgBRyBsqudtPVsvUfOsd/Cky9pKGPgzAPBgNVHRMB
-Af8EBTADAQH/MA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEFBQcDAQYI
-KwYBBQUHAwIwTAYDVR0RBEUwQ4cErB9ZNIIUY2ExLmV4YW1wbGUyLnJlZy5jb22C
-FGNhMS1leGFtcGxlMi1yZWctY29tgglsb2NhbGhvc3SHBH8AAAEwCgYIKoZIzj0E
-AwIDSAAwRQIhAL7XOd3wn7uZgoXDCfjPaizw1GefEynN6shUJXnMX5t4AiBePLYV
-qp6l8R+zPmpe3hG1snQxjEQuRwRdDB1pvX714w==
------END CERTIFICATE-----
-admin*˘
-Ì-----BEGIN CERTIFICATE-----
-MIICuDCCAl6gAwIBAgIUVSIdoSOQr+WTfOI/5xfpixs9EcUwCgYIKoZIzj0EAwIw
-cjELMAkGA1UEBhMCVVMxFzAVBgNVBAgMDk5vcnRoIENhcm9saW5hMRAwDgYDVQQH
-DAdSYWxlaWdoMRkwFwYDVQQKDBBleGFtcGxlMi5yZWcuY29tMR0wGwYDVQQDDBRj
-YTEuZXhhbXBsZTIucmVnLmNvbTAeFw0yMzExMTgyMTIzMThaFw0zMzExMTUyMTIz
-MThaMHIxCzAJBgNVBAYTAlVTMRcwFQYDVQQIDA5Ob3J0aCBDYXJvbGluYTEQMA4G
-A1UEBwwHUmFsZWlnaDEZMBcGA1UECgwQZXhhbXBsZTIucmVnLmNvbTEdMBsGA1UE
-AwwUY2ExLmV4YW1wbGUyLnJlZy5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNC
-AAQ9cJytEzb8dwSh7vyluEqf0E728++CTm+dFDAWcNqrLgTP1NpFkXc9OWU0uj+g
-RAWGTR0TN8r9QYptcvqP/ZMXo4HRMIHOMB0GA1UdDgQWBBRyBsqudtPVsvUfOsd/
-Cky9pKGPgzAfBgNVHSMEGDAWgBRyBsqudtPVsvUfOsd/Cky9pKGPgzAPBgNVHRMB
-Af8EBTADAQH/MA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEFBQcDAQYI
-KwYBBQUHAwIwTAYDVR0RBEUwQ4cErB9ZNIIUY2ExLmV4YW1wbGUyLnJlZy5jb22C
-FGNhMS1leGFtcGxlMi1yZWctY29tgglsb2NhbGhvc3SHBH8AAAEwCgYIKoZIzj0E
-AwIDSAAwRQIhAL7XOd3wn7uZgoXDCfjPaizw1GefEynN6shUJXnMX5t4AiBePLYV
-qp6l8R+zPmpe3hG1snQxjEQuRwRdDB1pvX714w==
------END CERTIFICATE-----
-ordererAdmins,
-AnchorPeers
-
-172.31.89.52€6Admins":
-Admins0&" 
-example2-reg-comAdmins"?
-Endorsement0&" 
-example2-reg-comAdmins"s
-Readersh^Z 
-example2-reg-com
-example2-reg-com
-example2-reg-comAdmins"W
-WritersLB>
- 
-example2-reg-com
-example2-reg-comAdmins*Admins$
+example-reg-comAdmins">
+Endorsement/%! 
+example-reg-comAdmins"p
+Readerse[W 
+example-reg-com
+example-reg-com
+example-reg-comAdmins*Admins$
 Capabilities
 
 
-V2_0 Admins",
-Endorsement
-EndorsementAdmins"5
+V2_0 Admins"5
 LifecycleEndorsement
 EndorsementAdmins""
 Readers	
@@ -319,7 +316,9 @@ qp6l8R+zPmpe3hG1snQxjEQuRwRdDB1pvX714w==
 WritersAdmins""
 Admins
 
-AdminsAdmins*Admins”D
+AdminsAdmins",
+Endorsement
+EndorsementAdmins*Admins”D
 Orderer«D®4
 reg-comú4˙2
 MSPÚ2Á2‰2
@@ -439,13 +438,13 @@ CmNhLXJlZy1jb22CCWxvY2FsaG9zdIcEfwAAATAKBggqhkjOPQQDAgNHADBEAiB/
 y/U4AoR28G2r1cM9cdFZ0133t5YtOngtJZQ+0oqt3wIgPSedPJt1kO6DIyaJjzLL
 hmg/7uTgh+guAvC0R4GhyY8=
 -----END CERTIFICATE-----
-ordererAdmins"0
+ordererAdmins"1
+Admins' 
+reg-comAdmins"0
 Readers% 	
 reg-comAdmins"0
 Writers% 	
-reg-comAdmins"1
-Admins' 
-reg-comAdmins*Admins$
+reg-comAdmins*Admins$
 Capabilities
 
 
@@ -499,29 +498,29 @@ j+VCrw==
 BlockValidation	
 WritersAdmins""
 Readers	
-ReadersAdmins*Admins*
-
-Consortium
-SampleConsortiumAdmins&
-HashingAlgorithm
-SHA256Admins-
-BlockDataHashingStructureˇˇˇˇAdminsB
+ReadersAdmins*AdminsB
 OrdererAddresses.
 172.31.89.52:7006/Channel/Orderer/Admins$
 Capabilities
 
 
-V2_0 Admins""
+V2_0 Admins*
+
+Consortium
+SampleConsortiumAdmins&
+HashingAlgorithm
+SHA256Admins-
+BlockDataHashingStructureˇˇˇˇAdmins""
 Writers	
 WritersAdmins""
 Admins
 
 AdminsAdmins""
 Readers	
-ReadersAdmins*Admins⁄
+ReadersAdmins*AdminsŸ
 é
 ⁄
-“◊‰™"autochannelæ
+…ÂÈ™"autochannelæ
 °
 example2-reg-comå-----BEGIN CERTIFICATE-----
 MIICcTCCAhigAwIBAgIUEGpa4dBx+/sQy23HQBlksYSm+eIwCgYIKoZIzj0EAwIw
@@ -539,8 +538,7 @@ dtPVsvUfOsd/Cky9pKGPgzAKBggqhkjOPQQDAgNHADBEAiAXcQ97B+ntC1ZQHYzT
 jQ/CiHf+yWk3/0Uo7d//2dhpEwIgILFrEOqpijBt6+OeUziu7l3I4RtpdJDYpao4
 KfdJXHk=
 -----END CERTIFICATE-----
-⁄UI¶
-Çtz ≠(ê·QØSz“∫«e}ÁÆ
+ K<=ãKv”†Õôæ–{S˙Ì´ ±ÂòÆ
 
 ü
 autochannelig
@@ -581,9 +579,7 @@ dtPVsvUfOsd/Cky9pKGPgzAKBggqhkjOPQQDAgNHADBEAiAXcQ97B+ntC1ZQHYzT
 jQ/CiHf+yWk3/0Uo7d//2dhpEwIgILFrEOqpijBt6+OeUziu7l3I4RtpdJDYpao4
 KfdJXHk=
 -----END CERTIFICATE-----
-0˜ós!¸Å†Ñ}¨H+”ü˜›≤’5ÍnF0D \7SÄÆ	{6îrüO|¯N/vu€”ßœÅ7$±4È |ôO0≠Ór]˘%
-…º"‰îe¯ÏÿÊAÑ†¬ªG0E! Ω∆o˘ËNÎ©ÛıDF’+‘<â∂Ø‡¨≠»PÛΩπP l Y∑ÔóπÍ‚∏@6Ω¢πÚÖì’ˇ	8ßòÕ
-6ÒÒ?,@öF0D vLüı÷Ÿ©tízΩÄLÑWC˘ﬂ+ÛF <NºÑï˙l*{=¯äûBÏrÙ˚4kÜúí|%è˜
+√*q◊ŸVe?Ñ˜5ìpSêŸoP2Ñx˜ÈF0D A"@˙πÅE„æÇöáÕzŸ}àa+Ê{Ä∫æŒ„Å"& §[ﬁa¢˝†Ñ5eÇ™ŸÕyó¯#7^3ß›OÑ&,F0D Q™˜ƒºÅQ)Ñ’"Ã ∂¢jöÂ;ïØﬁ}˝'8Ô<îª‹ ÒAë>ÆÆFü–&$ßÚÇñP&‰ãh,zó#îDF0D L[ãj‡h+y	»ÖN[æ∏°‹l%∞˚ì8Í◊◊w õÓóŒïôÄ@>%ë.√ƒ}’M∂ªÒ¥ª®©›ß·˜
 Ë
 
 	
@@ -606,7 +602,7 @@ VR0jBBgwFoAUzLxUOpx043wCMmfBKKHPYftF2UowCgYIKoZIzj0EAwIDSAAwRQIh
 AN+W5rWPVbubloS0ioo8HAp+4e/eVUCYINmSiNZHRW9lAiB8MSyXtDrWLHfjE6Y3
 fOtxtxqxgVhvvYjbXSiibUKJgA==
 -----END CERTIFICATE-----
-i≠¸<?VÕÁ«÷RˆÙ¨¶‰‰ÑiÁüG0E! ◊Kl“ÜÎqπGdô»À7BG˝’¸´ÅπW˘ÄÊì]Ü 0b((l7ÜñVB!ÍMVÎ~†∫{vdÏ˜ä@-F…
+s˝t}–î∞ÑA≤ﬁu+Ôà≤pçÉG0E! ô{*¶ÊÄVÛŒ˙fÀÌ"@N˝J4 ûÇxF◊öö uß¸∆˝éõ≥xU∆3_Ÿ·∑Õ†π¡ƒª3@„v
 
 
  

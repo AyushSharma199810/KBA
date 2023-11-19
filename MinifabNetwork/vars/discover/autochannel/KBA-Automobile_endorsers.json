@@ -3,14 +3,14 @@
   "EndorsersByGroups": {
     "G0": [
       {
-        "MSPID": "example-reg-com",
-        "Endpoint": "172.31.89.52:7002"
+        "MSPID": "example2-reg-com",
+        "Endpoint": "172.31.89.52:7003"
       }
     ],
     "G1": [
       {
-        "MSPID": "example2-reg-com",
-        "Endpoint": "172.31.89.52:7003"
+        "MSPID": "example-reg-com",
+        "Endpoint": "172.31.89.52:7002"
       }
     ]
   },
