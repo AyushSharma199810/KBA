@@ -55,7 +55,7 @@ func submitTxnFn(organization string, channelName string, chaincodeName string, 
 		return fmt.Sprintf("*** Transaction submitted successfully: %s\n", result)
 
 	case "query":
-		evaluateResult, err := contract.EvaluateTransaction(txnName, args...)
+		evaluateResult, err := contract.EvaluateTransaction( "ReadLand","Land01")
 		if err != nil {
 			panic(fmt.Errorf("failed to evaluate transaction: %w", err))
 		}

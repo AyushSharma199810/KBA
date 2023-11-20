@@ -11,16 +11,13 @@ func main() {
 		"manufacturer",
 		"autochannel",
 		"KBA-Automobile",
-		"CarContract",
+		"LandContract",
 		"invoke",
 		make(map[string][]byte),
-		"CreateCar",
-		"Car-09",
-		"Tata",
-		"Harrier",
-		"Black",
-		"fac01",
-		"25/10/2023",
+		"CreateLand",
+		"Land01",
+		"johny",
+		
 	)
 
 	// privateData := map[string][]byte{
