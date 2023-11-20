@@ -12,11 +12,11 @@ func main() {
 		"autochannel",
 		"KBA-Automobile",
 		"LandContract",
-		"invoke",
+		"query",
 		make(map[string][]byte),
-		"CreateLand",
+		"ReadLand",
 		"Land01",
-		"johny",
+		// "johny",
 		
 	)
 
