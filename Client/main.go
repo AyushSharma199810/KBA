@@ -16,7 +16,7 @@ func handleCreateLand(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
 	landID := params["landID"]
     Ownername := params["ownerName"]
-	Location :=params{"location"}
+	Location := params["location"]
 	// Use the provided chaincode function
 	result := submitTxnFn(
 		"manufacturer",
