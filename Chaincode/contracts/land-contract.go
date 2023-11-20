@@ -35,7 +35,7 @@ type Land struct {
 	Asset
 	LandID   string `json:"landID"`
 	OwnedBy  string `json:"ownedBy"`
-	// Add other properties relevant to land
+	Location string `json:"location"` // Add additional property for location
 }
 
 // LandContract.LandExists returns true when the land with the given ID exists in the world state
@@ -48,12 +48,12 @@ func (lc *LandContract) LandExists(ctx contractapi.TransactionContextInterface, 
 }
 
 // LandContract.CreateLand creates a new instance of Land
-func (lc *LandContract) CreateLand(ctx contractapi.TransactionContextInterface, landID string, ownerName string) (string, error) {
+func (lc *LandContract) CreateLand(ctx contractapi.TransactionContextInterface, landID, ownerName, location string) (string, error) {
 	land := Land{
-		Asset:   Asset{AssetType: "land"},
-		LandID:  landID,
-		OwnedBy: ownerName,
-		// Add other properties relevant to land
+		Asset:    Asset{AssetType: "land"},
+		LandID:   landID,
+		OwnedBy:  ownerName,
+		Location: location, // Set the location field
 	}
 
 	bytes, _ := json.Marshal(land)
@@ -62,6 +62,13 @@ func (lc *LandContract) CreateLand(ctx contractapi.TransactionContextInterface, 
 	if err != nil {
 		return "", err
 	}
+
+	// Emit event for Land creation
+	err = ctx.GetStub().SetEvent("LandCreated", bytes)
+	if err != nil {
+		return "", fmt.Errorf("failed to emit LandCreated event: %v", err)
+	}
+
 	return fmt.Sprintf("successfully added land %v", landID), nil
 }
 
@@ -80,6 +87,13 @@ func (lc *LandContract) UpdateLandOwnership(ctx contractapi.TransactionContextIn
 	if err != nil {
 		return "", err
 	}
+
+	// Emit event for Ownership update
+	err = ctx.GetStub().SetEvent("OwnershipUpdated", bytes)
+	if err != nil {
+		return "", fmt.Errorf("failed to emit OwnershipUpdated event: %v", err)
+	}
+
 	return fmt.Sprintf("successfully updated ownership of land %v to %v", landID, newOwner), nil
 }
 
@@ -117,6 +131,13 @@ func (lc *LandContract) DeleteLand(ctx contractapi.TransactionContextInterface, 
 	if err != nil {
 		return "", err
 	}
+
+	// Emit event for Land deletion
+	err = ctx.GetStub().SetEvent("LandDeleted", []byte(landID))
+	if err != nil {
+		return "", fmt.Errorf("failed to emit LandDeleted event: %v", err)
+	}
+
 	return fmt.Sprintf("land with id %v is deleted from the world state.", landID), nil
 }
 
@@ -227,8 +248,6 @@ func landResultIteratorFunction(resultsIterator shim.StateQueryIteratorInterface
 	return lands, nil
 }
 
-// Additional functions for land-specific logic can be added here
-
 // Example: RegisterLand registers land to the buyer
 func (lc *LandContract) RegisterLand(ctx contractapi.TransactionContextInterface, landID string, ownerName string) (string, error) {
 	clientOrgID, err := ctx.GetClientIdentity().GetMSPID()
@@ -249,10 +268,15 @@ func (lc *LandContract) RegisterLand(ctx contractapi.TransactionContextInterface
 			err = ctx.GetStub().PutState(landID, bytes)
 			if err != nil {
 				return "", err
-			} else {
-				return fmt.Sprintf("Land %v successfully registered to %v", landID, ownerName), nil
 			}
 
+			// Emit event for Land registration
+			err = ctx.GetStub().SetEvent("LandRegistered", bytes)
+			if err != nil {
+				return "", fmt.Errorf("failed to emit LandRegistered event: %v", err)
+			}
+
+			return fmt.Sprintf("Land %v successfully registered to %v", landID, ownerName), nil
 		} else {
 			return "", fmt.Errorf("Land %v does not exist!", landID)
 		}

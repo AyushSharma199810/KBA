@@ -145,6 +145,6 @@ func main() {
 	router.HandleFunc("/api/land/range", handleGetLandsByRange).Methods("GET")
 
 	// Start the HTTP server
-	fmt.Println("API server listening on port 8080")
+	fmt.Println("API server listening on port 8500")
 	http.ListenAndServe(":8500", router)
 }
