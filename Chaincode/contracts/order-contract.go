@@ -47,7 +47,8 @@ func (o *OrderContract) CreateOrder(ctx contractapi.TransactionContextInterface,
 	}
 
 	// if clientOrgID == "Org2MSP" {
-	if clientOrgID == "dealer-auto-com" {
+	// if clientOrgID == "dealer-auto-com" {
+	if clientOrgID == "DealerMSP" {
 		exists, err := o.OrderExists(ctx, orderID)
 		if err != nil {
 			return "", fmt.Errorf("could not read from world state. %s", err)
@@ -136,8 +137,8 @@ func (o *OrderContract) DeleteOrder(ctx contractapi.TransactionContextInterface,
 		return err
 	}
 	// if clientOrgID == "Org1MSP" || clientOrgID == "Org2MSP" {
-	if clientOrgID == "dealer-auto-com" || clientOrgID == "manufacturer-auto-com" {
-
+	// if clientOrgID == "dealer-auto-com" || clientOrgID == "manufacturer-auto-com" {
+	if clientOrgID == "ManufacturerMSP" || clientOrgID == "DealerMSP" {
 		exists, err := o.OrderExists(ctx, orderID)
 
 		if err != nil {

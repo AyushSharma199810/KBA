@@ -1,0 +1,30 @@
+/////Open a command terminal with in Automobile-network folder
+
+cd Automobile-network/
+
+//Execute the startAutomobileNetwork.sh script file to start the network
+
+./startAutomobileNetwork.sh
+
+cd ..
+
+mkdir Client
+
+///Build the client application
+
+cd Client
+
+go mod init client
+
+Create and build profile.go, connect.go, client.go, main.go
+
+go mod tidy
+
+go run .
+
+
+
+//To stop the network using script file
+
+./stopAutomobileNetwork.sh
+

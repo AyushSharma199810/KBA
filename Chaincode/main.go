@@ -8,10 +8,10 @@ import (
 )
 
 func main() {
-	landContract := new(contracts.LandContract)
+	carContract := new(contracts.CarContract)
 	orderContarct := new(contracts.OrderContract)
 
-	chaincode, err := contractapi.NewChaincode(landContract, orderContarct)
+	chaincode, err := contractapi.NewChaincode(carContract, orderContarct)
 
 	if err != nil {
 		log.Panicf("Could not create chaincode." + err.Error())
