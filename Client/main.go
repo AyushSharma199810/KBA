@@ -28,10 +28,7 @@ func handleCreateLand(w http.ResponseWriter, r *http.Request) {
 		landID, Ownername,
 	)
 
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
-	}
+	  
 
 	// Respond with the result in JSON format
 	response := map[string]string{"result": result}
@@ -55,10 +52,7 @@ func handleUpdateLandOwnership(w http.ResponseWriter, r *http.Request) {
 		"Land01", "NewOwnerName",
 	)
 
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
-	}
+	  
 
 	// Respond with the result in JSON format
 	response := map[string]string{"result": result}
@@ -82,10 +76,7 @@ func handleReadLand(w http.ResponseWriter, r *http.Request) {
 		landID,
 	)
 
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
-	}
+	
 
 	// Respond with the result in JSON format
 	response := map[string]string{"result": result}
@@ -109,10 +100,7 @@ func handleDeleteLand(w http.ResponseWriter, r *http.Request) {
 		landID,
 	)
 
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
-	}
+
 
 	// Respond with the result in JSON format
 	response := map[string]string{"result": result}
@@ -136,10 +124,7 @@ func handleGetLandsByRange(w http.ResponseWriter, r *http.Request) {
 		"startKey", "endKey",
 	)
 
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
-	}
+	  
 
 	// Respond with the result in JSON format
 	response := map[string]string{"result": result}
