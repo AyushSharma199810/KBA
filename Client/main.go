@@ -75,7 +75,7 @@ func handleReadLand(w http.ResponseWriter, r *http.Request) {
 		"ReadLand",
 		landID,
 	)
-
+    fmt.Println(result)
 	
 
 	// Respond with the result in JSON format
