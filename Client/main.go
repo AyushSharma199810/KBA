@@ -16,6 +16,7 @@ func handleCreateLand(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
 	landID := params["landID"]
     Ownername := params["ownerName"]
+	Location :=params{"location"}
 	// Use the provided chaincode function
 	result := submitTxnFn(
 		"manufacturer",
@@ -25,7 +26,7 @@ func handleCreateLand(w http.ResponseWriter, r *http.Request) {
 		"invoke",
 		make(map[string][]byte),
 		"CreateLand",
-		landID, Ownername,
+		landID, Ownername,Location,
 	)
 
 	  
@@ -138,7 +139,7 @@ func main() {
 	router := mux.NewRouter()
 
 	// Define your API endpoints
-	router.HandleFunc("/api/land/create/{landID}/{ownerName}", handleCreateLand).Methods("POST")
+	router.HandleFunc("/api/land/create/{landID}/{ownerName}/{location}", handleCreateLand).Methods("POST")
 	router.HandleFunc("/api/land/update/{landID}/{newOwner}", handleUpdateLandOwnership).Methods("PUT")
 	router.HandleFunc("/api/land/read/{landID}", handleReadLand).Methods("GET")
 	router.HandleFunc("/api/land/delete/{landID}", handleDeleteLand).Methods("DELETE")
