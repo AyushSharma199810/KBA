@@ -17,7 +17,7 @@ func handleCreateLand(w http.ResponseWriter, r *http.Request) {
 	landID := params["landID"]
     Ownername := params["ownerName"]
 	// Use the provided chaincode function
-	result, err := submitTxnFn(
+	result := submitTxnFn(
 		"manufacturer",
 		"autochannel",
 		"KBA-Automobile",
@@ -44,7 +44,7 @@ func handleUpdateLandOwnership(w http.ResponseWriter, r *http.Request) {
 	// ...
 
 	// Use the provided chaincode function
-	result, err := submitTxnFn(
+	result := submitTxnFn(
 		"manufacturer",
 		"autochannel",
 		"KBA-Automobile",
@@ -71,7 +71,7 @@ func handleReadLand(w http.ResponseWriter, r *http.Request) {
 	landID := params["landID"]
 
 	// Use the provided chaincode function
-	result, err := submitTxnFn(
+	result := submitTxnFn(
 		"manufacturer",
 		"autochannel",
 		"KBA-Automobile",
@@ -98,7 +98,7 @@ func handleDeleteLand(w http.ResponseWriter, r *http.Request) {
 	landID := params["landID"]
 
 	// Use the provided chaincode function
-	result, err := submitTxnFn(
+	result := submitTxnFn(
 		"manufacturer",
 		"autochannel",
 		"KBA-Automobile",
@@ -125,7 +125,7 @@ func handleGetLandsByRange(w http.ResponseWriter, r *http.Request) {
 	// ...
 
 	// Use the provided chaincode function
-	result, err := submitTxnFn(
+	result := submitTxnFn(
 		"manufacturer",
 		"autochannel",
 		"KBA-Automobile",
